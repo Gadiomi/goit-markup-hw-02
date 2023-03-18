@@ -62,19 +62,12 @@ body {
   background: #2e2f42;
 }
 .hero-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  cursor: pointer;
-  letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 /* Description */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -123,4 +116,41 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/* Button */
+.primary-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.primary-btn:hover,
+.primary-btn:focus {
+  background-color: #404bbf;
+}
+
+/* Portfolio */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio-btn {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.filter-btn {
+  color: #4d5ae5;
+  background: #f4f4fd;
 }
